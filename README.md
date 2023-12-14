@@ -1,2 +1,2 @@
 # rpclib
-transport agnostic &amp; bi-drectional json rpc library
+transport agnostic &amp; bi-directional json rpc library

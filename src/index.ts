@@ -1,1 +1,8 @@
-console.log((2+2==4) == true);
+export {
+  RPCException,
+  ParseErrorException,
+  InvalidRequestException,
+  MethodNotFoundException,
+  InvalidParamsException,
+  InternalErrorException
+} from "./exception";
