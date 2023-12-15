@@ -1,6 +1,6 @@
 export {
-	RPCTransport,
+  RPCTransport,
 
-	MessageType,
-	OnMessageCallback,
+  MessageType,
+  OnMessageCallback,
 } from "./transport";
