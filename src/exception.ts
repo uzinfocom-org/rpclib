@@ -40,6 +40,6 @@ export class InvalidParamsException extends RPCException {
 
 export class InternalErrorException extends RPCException {
   constructor(data?: any) {
-    super(-32603, "Internal error exception", data);
+    super(-32603, "Internal error", data);
   }
 }
