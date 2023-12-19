@@ -1,4 +1,5 @@
 {
+  "name": "@uzinfocom/rpclib-http-transport",
   "version": "0.0.0",
   "description": "transport agnostic & bi-drectional json rpc library ",
   "main": "dist/index.js",
@@ -16,17 +17,14 @@
     "url": "https://github.com/uzinfocom-org/rpclib/issues"
   },
   "homepage": "https://github.com/uzinfocom-org/rpclib#readme",
-  "workspaces": [
-    "packages/core",
-    "packages/transport",
-    "packages/http-transport"
-  ],
+  "dependencies": {
+    "@uzinfocom/rpclib-transport": "^0.0.0",
+    "debug": "^4.3.4"
+  },
+  "directories": {
+    "test": "test"
+  },
   "devDependencies": {
-    "@types/chai": "^4.3.11",
-    "@types/mocha": "^10.0.6",
-    "chai": "^4.3.10",
-    "mocha": "^10.2.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "@types/debug": "^4.1.12"
   }
 }
